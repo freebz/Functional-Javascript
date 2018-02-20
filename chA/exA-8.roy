@@ -1,0 +1,17 @@
+// A.2.3 로이
+
+let hi name: String =
+  alert "Hello " + name + "!"
+
+// Error: Type error: String is not Number
+
+
+
+let hi name: String =
+  console.log "Hello " ++ name ++ "!"
+
+
+
+hi "Roy"
+
+// Hello Roy!
